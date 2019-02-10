@@ -1,0 +1,11 @@
+version: '3'
+services:
+  kidreports-postgres:
+    image: attendance-postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    build:
+      context: .
