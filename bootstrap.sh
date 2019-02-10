@@ -10,13 +10,13 @@ EOSQL
 
 echo 'Running restore...'
 
-pg_restore -d kidreports --role=postgres attendance1.backup
+pg_restore -d attendance --role=postgres attendance.backup
 
 echo 'Finished Restore.'
 
 echo 'Applying Functions...'
 
-psql -d kidreports -f '/scripts/install.sql'
+#psql -d attendance -f '/scripts/install.sql'
 
 echo 'Finished Applying Functions.'
 

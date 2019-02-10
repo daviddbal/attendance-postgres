@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Attendance Database] is a collection of SQL scripts and db backup to support the Attendance app by Daid Bal
+[Attendance Database] is a collection of SQL scripts and db backup to support the Attendance app by David Bal
 
 ## Installation
 
