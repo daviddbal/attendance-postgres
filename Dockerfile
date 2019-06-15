@@ -2,7 +2,7 @@ FROM postgres:11.1
 
 ENV VERSION 1
 
-ENV DB_NAME=api
+ENV DB_NAME=empty-tables.backup
 #ENV DB_NAME=attendance
 
 EXPOSE 5432
